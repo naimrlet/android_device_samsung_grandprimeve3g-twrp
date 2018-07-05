@@ -7,4 +7,4 @@
 /modem		emmc		/dev/block/mmcblk0p8                           flags=backup=1;display="Modem"
 /modem2		emmc		/dev/block/mmcblk0p9                           flags=backup=1;display="Modem2"
 /external_sd	vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="extSdCard";storage;wipeingui;removable
-/usb-otg	auto		/dev/block/sda1                           display="usbotg"
+/usb-otg	auto		/dev/block/sda1	/dev/block/sda2	/dev/block/sda3	/dev/block/sda4                           flags=display="usbotg";storage;wipeingui;removable
